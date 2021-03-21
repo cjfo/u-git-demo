@@ -61,6 +61,6 @@ public class PlayerHandle : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        isGounded = true;
+        isGounded = true; 
     } // end isGrounded
 }
